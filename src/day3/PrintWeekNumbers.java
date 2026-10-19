@@ -1,20 +1,20 @@
 package day3;
 
-public class SwitchCaseStatement {
+public class PrintWeekNumbers {
     public static void main(String[] args)
     {
-        int week_no = 6;
+        String week_name = "friday";
 
-        switch(week_no)
+        switch(week_name)
         {
-            case 1 : System.out.println("Sunday");break;
-            case 2: System.out.println("Monday");break;
-            case 3 : System.out.println("Tuesday");break;
-            case 4 : System.out.println("Wednesday");break;
-            case 5 : System.out.println("Thursday");break;
-            case 6 : System.out.println("Friday");break;
-            case 7 : System.out.println("Saturday");break;
-            default : System.out.println("Ineligible week number");break;
+            case "sunday" : System.out.println(1);break;
+            case "monday" : System.out.println(2);break;
+            case "tuesday" : System.out.println(3);break;
+            case "wednesday" : System.out.println(4);break;
+            case "thursday" : System.out.println(5);break;
+            case "friday" : System.out.println(6);break;
+            case "saturday" : System.out.println(7);break;
+            default : System.out.println("Ineligible week name");break;
         }
     }
 }

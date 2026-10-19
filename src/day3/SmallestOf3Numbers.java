@@ -5,17 +5,17 @@ public class SmallestOf3Numbers {
     {
         int a = 10, b= 20, c= 30;
 
-        if(a>b && a>c)
+        if(a<b && a<c)
         {
-            System.out.println("a is the largest number"+a);
+            System.out.println("a is the smallest number "+a);
         }
-        else if(b>a && b>c)
+        else if(b<a && b<c)
         {
-            System.out.println("b is the largest number "+b);
+            System.out.println("b is the smallest number "+b);
         }
         else
         {
-            System.out.println("c is the largest number "+c);
+            System.out.println("c is the smallest number "+c);
         }
     }
 }
