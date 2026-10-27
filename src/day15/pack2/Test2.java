@@ -1,4 +1,4 @@
-package pack2;
+package day15.pack2;
 
 import day15.pack1.Test1;
 
