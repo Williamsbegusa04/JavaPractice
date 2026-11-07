@@ -48,8 +48,8 @@ public class HashMapDemo {
         System.out.println("Using Iterator");
         Iterator <Map.Entry<Integer,String>>it = hm.entrySet().iterator();
         while(it.hasNext())
-        {
-            Map.Entry<Integer,String> entry = it.next();
+        {Map.Entry<Integer,String> entry = it.next();
+
             System.out.println(entry.getKey()+"     "+entry.getValue());
         }
 
